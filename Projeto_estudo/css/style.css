@@ -1,0 +1,662 @@
+/* colors: 
+primary: #1F115B;
+secundary: #0A0846 */
+
+
+
+/* Configuration CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/* End configuration CSS */
+
+
+/* Font */
+
+h1,
+h2,
+h3,
+p,
+a {
+    /* font-family: 'Nabla', sans-serif; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title-h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Nabla', sans-serif;
+    font-size: 4em;
+}
+
+.title-h2 {
+    color: white;
+    padding-top: 2em;
+    text-transform: uppercase;
+    font-size: 1.7em;
+    text-align: left;
+}
+
+.title-h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 0.9em;
+    margin-bottom: 0.9em;
+    letter-spacing: 5px;
+}
+
+.span_title {
+    color: #ff7a27;
+}
+
+
+/* End Font */
+
+/* Variable 
+ color: var(--my-cool-background);*/
+
+:root {
+    --primary: #1F115B;
+    --secundary: #0A0846;
+    --container: #121025;
+    --white: #ffffff;
+    --black: #222222;
+
+}
+
+/* End variable */
+
+/* Config  container and wrapper */
+
+.container {
+    width: 100%;
+
+
+}
+
+
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+/* End config container and wrapper */
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/* menu */
+
+header {
+    height: auto;
+    background-image: url("../imagens/banner2.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+}
+
+.menu {
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.list_menu {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+.link-curriculum {
+
+    color: #ffffff;
+    background: #140a3e;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.list_menu li {
+    list-style: none;
+}
+
+.list_menu li a {
+    color: white;
+    font-size: 1.2em;
+    text-decoration: none;
+
+}
+
+
+
+/* End Menu */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* Container Banner */
+
+.background-banner {
+    background-image: url("../imagens/banner2.png");
+    height: 100vh;
+
+
+}
+
+.background-banner img {
+    width: 370px;
+    border-radius: 200px;
+    border: 5px solid #ff8c24;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+    align-content: center;
+}
+
+
+.paragraph_description {
+    color: white;
+}
+
+.description-container a img {
+    width: 40px;
+    border: 0px solid;
+}
+
+.description-container {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2em;
+}
+
+
+.background-roxo {
+    background-color: var(--container);
+    height: 1000px;
+}
+
+.description_p {
+    color: white;
+    line-height: 1.7em;
+    margin-top: 1.3em;
+    text-align: justify;
+}
+
+.img_about img {
+    width: 660px;
+}
+
+.container-about {
+
+    display: flex;
+}
+
+
+.descripiton-about {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Box Container */
+
+
+
+
+.container-box {
+    display: flex;
+    background-image: url(../imagens/onda.svg);
+    margin-top: 3em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.teste {
+    font-family: 'arial';
+    color: white;
+    display: flex;
+    margin-top: 1.3em;
+    align-items: center;
+}
+
+
+
+.box img {
+    margin-left: 1em;
+    margin-right: 1em;
+    width: 40px;
+}
+
+
+.box2 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.box {
+    box-shadow: 0 2.8px 19px 20px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 1px 1px 20px 4px rgba(0, 0, 0, 0.12);
+    width: 500px;
+    height: 280px;
+    margin-top: 6em;
+    border-radius: 5px;
+    border: 2px solid #ff7a27;
+
+}
+
+
+
+/* End Box Container */
+
+
+/* End Container Banner */
+
+
+/* ---------------- Projects ---------------------------- */
+
+
+
+.container-skill {
+    background-color: #060410;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.container-projects-c {
+    background-color: #0b0720;
+
+
+}
+
+.text-degrad {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#D71489 40%, #004788);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.container-projects-c h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#312e30 40%, #004788);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding-top: 1em;
+
+
+}
+
+.container-projects {
+
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.container-skill h2 {
+    font-size: 3em;
+  
+}
+
+.grid-window-parent {
+    position: relative;
+}
+
+.animation {
+
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    padding-top: 3em;
+    gap: 20px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+.animation img {
+    width: auto;
+    transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+
+.animation img:hover {
+
+    display: block;
+    transform: translate3d(-2%, -2.5%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-5deg) skew(0deg, 0deg);
+    transform-style: preserve-3d;
+}
+
+
+
+
+.grid-window-hovered-image {
+    display: none;
+}
+
+
+.container-skill h2:after {
+    content: '';
+    display: block;
+    width: 50%;
+    height: 2px;
+    background: -webkit-linear-gradient(#D71489 40%, #004788);
+    position: relative;
+
+
+}
+
+
+
+.carrosel {
+    max-width: 400px;
+
+
+}
+
+
+.carrosel img {
+    border-radius: 20px;
+    border: 5px solid #2f2288;
+
+}
+
+/* Scrool Bar */
+
+body::-webkit-scrollbar {
+    width: 0.6em;
+    background-color: rgb(12, 11, 11);
+}
+
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(12, 1, 107, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--primary);
+    outline: 1px solid var(--secundary);
+    border-radius: 10px;
+
+}
+
+
+
+
+
+/* Container photo */
+
+.container-photo {
+    height: 100vh;
+    background-color: #0c0a18;
+    background-image: url(../imagens/wallpaper_travel.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.description-travel img {
+
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
+
+.list_menu-mobile {
+    display: none;
+}
+
+.text-travel {
+    display: none;
+}
+
+
+
+.card-projects {
+    width: 300px;
+    height: 300px;
+}
+
+.card-projects img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.card-projects img:hover {
+    transform: translate3d(-2%, -2.5%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-5deg) skew(0deg, 0deg);
+}
+
+/* keyFrame Animation */
+.onda {
+    animation: onda 2s infinite ease-in-out;
+}
+
+
+.menu-mobile {
+    display: none;
+}
+
+
+/* Button Animations */
+
+
+
+
+@keyframes onda {
+    0% {
+        transform: scale(0.8);
+        /* Escala inicial */
+        /* Opacidade inicial */
+    }
+
+    50% {
+        transform: scale(1.2);
+        /* Escala máxima */
+        /* Opacidade zero */
+    }
+
+    100% {
+        transform: scale(0.8);
+        /* Retorno à escala inicial */
+        /* Opacidade retorna a 1 */
+    }
+}
+
+
+
+
+/* keyFrame Animation */
+
+
+
+/* Media  Query*/
+
+@media only screen and (max-width: 720px) {
+
+
+    .background-banner img {
+        width: 270px;
+    }
+
+    .title-h1 {
+        font-size: 2rem;
+    }
+
+    .description-container {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 5em;
+    }
+
+    .title-h2 {
+        font-size: 20px !important;
+        line-height: 1.3em;
+        text-align: left;
+    }
+
+    .title-h2-center {
+        font-size: 20px !important;
+        line-height: 1.3em;
+        text-align: left;
+    }
+
+    .container-about {
+
+        display: flex;
+    }
+
+    .container-about {
+        flex-wrap: wrap;
+    }
+
+    .img_about img {
+        width: 100%;
+    }
+
+    .background-roxo {
+        height: 1300px;
+    }
+
+    .container-skill {
+        height: 120vh;
+    }
+
+    .container-photo {
+        margin: 0 auto;
+        height: 100vh;
+        background-color: #0c0a18;
+        background-image: url(../imagens/wallpaper_travel.png);
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .carrosel {
+        max-width: 80%;
+    }
+
+    .description-travel {
+        display: none;
+    }
+
+    .text-travel {
+        display: block;
+        color: white;
+        width: 90%;
+        text-align: center;
+        background: #2e2186;
+        padding: 10px;
+        line-height: 1.6;
+        margin-bottom: 100px;
+        border-radius: 20px;
+    }
+
+    .list_menu {
+        display: none;
+    }
+
+    .menu-mobile {
+        background: transparent;
+        display: block;
+        box-shadow: none;
+        border: none;
+    }
+
+    .menu-mobile img {
+        width: 30px;
+    }
+
+    .list_menu-mobile {
+
+        display: none;
+
+    }
+
+    .list_menu-mobile li a {
+        color: white;
+        font-weight: bold;
+    }
+
+    .open {
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 2em;
+        display: flex;
+        transition-delay: 2s;
+
+    }
+
+    header {
+        width: 100%;
+        position: absolute;
+    }
+
+    .content-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding-top: 8em;
+        flex-direction: column-reverse;
+        align-content: center;
+    }
+
+    .container-skill h2 {
+        font-size: 3em;
+        margin-top: 1px !important;
+    }
+
+    .container-projects-c h1{
+        font-size: 3.1em;
+        margin-bottom: 2em;
+    }
+
+    .container-projects-c{
+        height: 170vh;
+    }
+
+}
