@@ -299,6 +299,14 @@ header {
 
 }
 
+.card-background{
+
+    background-image: url(../imagens/my_projects2.png);
+    background-size: cover;
+    background-position: 0 auto;
+    background-repeat: no-repeat;
+}
+
 .text-degrad {
     font-size: 72px;
     background: -webkit-linear-gradient(#D71489 40%, #004788);
@@ -450,18 +458,19 @@ body::-webkit-scrollbar-thumb {
 
 
 .card-projects {
-    width: 300px;
+    width: 400px;
     height: 300px;
+    border-radius: 10px;
 }
 
 .card-projects img {
     width: 100%;
-    border-radius: 10px;
+   
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 
 }
 
-.card-projects img:hover {
+.card-projects:hover {
     transform: translate3d(-2%, -2.5%, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(-5deg) skew(0deg, 0deg);
 }
 
