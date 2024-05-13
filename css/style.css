@@ -307,6 +307,14 @@ header {
     background-repeat: no-repeat;
 }
 
+.card-background2{
+
+    background-image: url(../imagens/my_projects.png);
+    background-size: cover;
+    background-position: 0 auto;
+    background-repeat: no-repeat;
+}
+
 .text-degrad {
     font-size: 72px;
     background: -webkit-linear-gradient(#D71489 40%, #004788);
