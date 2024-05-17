@@ -310,8 +310,8 @@ header {
 .card-background2{
 
     background-image: url(../imagens/my_projects.png);
-    background-size: contain;
-    background-position: 0 auto;
+    background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
