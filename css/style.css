@@ -574,12 +574,12 @@ body::-webkit-scrollbar-thumb {
     }
 
     .container-skill {
-        height: 120vh;
+        height: 150vh;
     }
 
     .container-photo {
         margin: 0 auto;
-        height: 100vh;
+        height: 120vh;
         background-color: #0c0a18;
         background-image: url(../imagens/wallpaper_travel.png);
         background-size: cover;
@@ -674,6 +674,12 @@ body::-webkit-scrollbar-thumb {
 
     .container-projects-c{
         height: 170vh;
+    }
+
+    .card-projects {
+
+      width: 300px;
+      margin-top: 4em;
     }
 
 }
