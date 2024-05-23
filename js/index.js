@@ -28,11 +28,7 @@ new Typed('.write',{
 
 
 
-alert(" Olá, seja bem-vindo ao meu portifólio. No momento estou sem notebook, há mais projetos para serem incluindos. :/ 
 
-Version English: Hello, welcome to my portfolio.  At the moment I don't have a notebook, there are more projects to be included. :/
-
-");
 
 
 function button_show(){
